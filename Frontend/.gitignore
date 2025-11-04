@@ -1,0 +1,30 @@
+# Dependencias
+node_modules/
+
+# Producción
+dist/
+build/
+
+# Archivos del editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos de registro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Lock files opcionales (dependiendo del gestor que uses)
+# Si usas npm, puedes ignorar yarn.lock o pnpm-lock.yaml
+yarn.lock
+pnpm-lock.yaml

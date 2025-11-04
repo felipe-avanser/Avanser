@@ -1,0 +1,1 @@
+// Hook que interactúa con AuthContext para verificar autenticación y obtener datos del usuario.

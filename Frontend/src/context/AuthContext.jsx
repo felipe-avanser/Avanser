@@ -1,0 +1,1 @@
+//Proveedor de contexto para la autenticación; maneja el estado global del usuario (login, logout, token, etc.).

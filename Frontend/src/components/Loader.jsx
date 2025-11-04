@@ -1,0 +1,1 @@
+// Componente de carga (spinner o barra de progreso) mostrado mientras se obtienen datos o se realiza una acción.

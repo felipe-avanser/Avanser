@@ -1,0 +1,1 @@
+// Barra lateral del sistema (navegación entre secciones).

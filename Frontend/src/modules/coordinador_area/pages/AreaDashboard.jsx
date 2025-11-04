@@ -1,0 +1,1 @@
+//Página principal del coordinador, muestra panel de control con información relevante (resumen, estadísticas, etc.).
