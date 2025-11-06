@@ -1,11 +1,14 @@
 """
-Configuración WSGI para el proyecto Avanser.
+WSGI config for Avanser project.
 
-Este archivo define la configuración necesaria para desplegar el proyecto
-Django en servidores que utilizan la interfaz WSGI (Web Server Gateway Interface),
-como Apache, Nginx + Gunicorn o mod_wsgi.
-
-Expone una variable de módulo llamada ``application``, que actúa como el punto
-de entrada para que el servidor web se comunique con la aplicación Django.
-
+Este archivo expone la aplicación WSGI como una variable de nivel de módulo llamada ``application``.
+WSGI (Web Server Gateway Interface) permite que Django maneje peticiones HTTP sincrónicas.
 """
+import os
+from django.core.wsgi import get_wsgi_application
+
+# Indicar el archivo de configuración de Django
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
+
+# Crear la aplicación WSGI
+application = get_wsgi_application()
