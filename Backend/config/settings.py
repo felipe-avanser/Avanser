@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     # 'apps.coordinador_area',
     # 'apps.funcionario_bienestar',
     # 'apps.instructor',
-    # 'apps.usuario',
+    'apps.usuario',
 ]
 
 #MIDDLEWARE
@@ -120,3 +120,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Puerto del frontend
 ]
 CORS_ALLOW_CREDENTIALS = True
+
+#Registro de modelos 
+AUTH_USER_MODEL = 'usuario.Usuario'

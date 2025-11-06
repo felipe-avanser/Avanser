@@ -12,15 +12,15 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 def main():
-    # 📂 Ruta base del backend
+    # Ruta base del backend
     BASE_DIR = Path(__file__).resolve().parent
 
-    # 🔑 Cargar variables de entorno (.env)
+    # Cargar variables de entorno (.env)
     env_path = BASE_DIR / '.env'
     if env_path.exists():
         load_dotenv(dotenv_path=env_path)
 
-    # ⚙️ Indicar el módulo de configuración del proyecto
+    # Indicar el módulo de configuración del proyecto
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 
     try:
