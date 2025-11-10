@@ -28,8 +28,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Apps externas
-    # 'rest_framework',
-    # 'corsheaders',
+    'rest_framework',
+    'corsheaders',
 
     # Apps locales
     # 'apps.coordinador_area',
@@ -131,3 +131,4 @@ REST_FRAMEWORK = {
 
 #Registro de modelos 
 AUTH_USER_MODEL = 'usuario.Usuario'
+
