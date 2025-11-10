@@ -15,6 +15,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),          # Panel de administración de Django
     path('', home, name='home'),              # Página de inicio
     path('usuarios/', include('apps.usuario.urls')),
+    path('instructores/', include('apps.instructor.urls')),
 ]
 
 # Personalización del panel de administración

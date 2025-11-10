@@ -1,1 +1,0 @@
-# arranque del cordinador de area

@@ -1,0 +1,1 @@
+from ficha.serializers.fichas import FichaSerializer

@@ -34,7 +34,9 @@ INSTALLED_APPS = [
     # Apps locales
     # 'apps.coordinador_area',
     # 'apps.funcionario_bienestar',
-    # 'apps.instructor',
+    'apps.instructor',
+    'apps.ficha',
+    'apps.programa_formacion',
     'apps.usuario',
 ]
 

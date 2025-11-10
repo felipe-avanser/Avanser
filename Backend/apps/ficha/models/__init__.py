@@ -1,0 +1,1 @@
+from .fichas import Ficha
