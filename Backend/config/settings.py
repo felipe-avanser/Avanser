@@ -121,5 +121,13 @@ CORS_ALLOWED_ORIGINS = [
 ]
 CORS_ALLOW_CREDENTIALS = True
 
+# REST FRAMEWORK CONFIG (JWT Authentication)
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+}
+
+
 #Registro de modelos 
 AUTH_USER_MODEL = 'usuario.Usuario'
