@@ -1,1 +1,0 @@
-#vistas del administrador

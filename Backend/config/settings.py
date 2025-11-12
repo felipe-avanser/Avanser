@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     # Apps externas
     'rest_framework',
     'corsheaders',
+    'django_filters',
 
     # Apps locales
     # 'apps.coordinador_area',
