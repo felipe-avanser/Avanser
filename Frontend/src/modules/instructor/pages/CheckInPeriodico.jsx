@@ -29,7 +29,7 @@ const CheckInPeriodico = () => {
   return (
     <div className="p-6">
          <Navbar />
-      <h2 className="text-xl font-bold mb-4">Check-in Quincenal</h2>
+      <h2 className="text-xl font-bold mb-4">Registro Quincenal</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {estudiantesDemo.map(e => (
           <div key={e.id} className="bg-white p-4 shadow rounded">
@@ -49,7 +49,7 @@ const CheckInPeriodico = () => {
           </div>
         ))}
       </div>
-      <button className="btn bg-green-600 text-white mt-4" onClick={guardar}>Guardar Check-in</button>
+      <button className="btn bg-green-600 text-white mt-4" onClick={guardar}>Guardar</button>
     </div>
   );
 };
