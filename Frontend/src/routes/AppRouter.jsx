@@ -12,6 +12,7 @@ import DashboardCharts from "../modules/instructor/pages/DashboardCharts";
 import DashboardGeneral from "../modules/instructor/pages/DashboardGeneral";
 import PushCheckIn from "../components/PushCheckIn";
 import Navbar from "../components/Navbar"
+import GenerarPerfiles from "../modules/coordinador_area/pages/GenerarPerfiles"; //Anne
 
 
 const AppRouter = () => {
@@ -22,7 +23,7 @@ const AppRouter = () => {
        
         <div className="flex-1 p-6">
           <Routes>
-            {/* ✅ Redirección: "/" va directo al DashboardFinal */}
+            {/* Redirección: "/" va directo al DashboardFinal */}
             <Route path="/" element={<Navigate to="/dashboard-final" replace />} />
 
             <Route path="/dashboard-final" element={<DashboardFinal />} />
@@ -36,6 +37,7 @@ const AppRouter = () => {
             <Route path="/dashboard-charts" element={<DashboardCharts />} />
             <Route path="/dashboard-general" element={<DashboardGeneral />} />
             <Route path="/push-checkin" element={<PushCheckIn />} />
+            <Route path="/generar-perfiles" element={<GenerarPerfiles />} /> // Anne
           </Routes>
         </div>
       </div>

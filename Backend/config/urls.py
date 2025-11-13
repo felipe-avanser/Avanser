@@ -16,6 +16,8 @@ urlpatterns = [
     path('', home, name='home'),              # Página de inicio
     path('usuarios/', include('apps.usuario.urls')),
     path('instructores/', include('apps.instructor.urls')),
+    path("api/coordinador/", include("apps.coordinador_area.urls")), #Ann
+
 ]
 
 # Personalización del panel de administración

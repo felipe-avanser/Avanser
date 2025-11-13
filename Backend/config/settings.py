@@ -33,7 +33,7 @@ INSTALLED_APPS = [
     'django_filters',
 
     # Apps locales
-    # 'apps.coordinador_area',
+    'apps.coordinador_area',
     # 'apps.funcionario_bienestar',
     'apps.instructor',
     'apps.ficha',
