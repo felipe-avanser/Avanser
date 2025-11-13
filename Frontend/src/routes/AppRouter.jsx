@@ -12,8 +12,17 @@ import DashboardCharts from "../modules/instructor/pages/DashboardCharts";
 import DashboardGeneral from "../modules/instructor/pages/DashboardGeneral";
 import PushCheckIn from "../components/PushCheckIn";
 import Navbar from "../components/Navbar"
+<<<<<<< HEAD
 import GenerarPerfiles from "../modules/coordinador_area/pages/GenerarPerfiles"; //Anne
 
+=======
+import ListadoConvocatorias from "../modules/funcionario_bienestar/pages/ListadoConvocatoriasTemp";
+import EditarConvocatoria from "../modules/funcionario_bienestar/pages/EditarConvocatoria";
+import DetalleConvocatoria from "../modules/funcionario_bienestar/pages/DetalleConvocatoria";
+import FormularioConvocatoria from "../modules/funcionario_bienestar/pages/FormularioConvocatoria";
+import InscripcionConvocatoria from "../modules/funcionario_bienestar/pages/InscripcionConvocatoria";
+import VistaAprendizConvocatorias from "../modules/funcionario_bienestar/pages/VistaAprendizConvocatorias";
+>>>>>>> 24e3739427130ea6bdbf6f57381845b70cea7c9f
 
 const AppRouter = () => {
   return (
@@ -23,9 +32,11 @@ const AppRouter = () => {
        
         <div className="flex-1 p-6">
           <Routes>
+<<<<<<< HEAD
             {/* Redirección: "/" va directo al DashboardFinal */}
+=======
+>>>>>>> 24e3739427130ea6bdbf6f57381845b70cea7c9f
             <Route path="/" element={<Navigate to="/dashboard-final" replace />} />
-
             <Route path="/dashboard-final" element={<DashboardFinal />} />
             <Route path="/reportes" element={<ReportesPage />} />
             <Route path="/citacion" element={<CitacionForm />} />
@@ -37,7 +48,17 @@ const AppRouter = () => {
             <Route path="/dashboard-charts" element={<DashboardCharts />} />
             <Route path="/dashboard-general" element={<DashboardGeneral />} />
             <Route path="/push-checkin" element={<PushCheckIn />} />
+<<<<<<< HEAD
             <Route path="/generar-perfiles" element={<GenerarPerfiles />} /> // Anne
+=======
+            <Route path="/convocatorias" element={<ListadoConvocatorias />} />
+            <Route path="/editar-convocatoria/:id" element={<EditarConvocatoria />} />
+            <Route path="/detalle-convocatoria/:id" element={<DetalleConvocatoria />} />
+            <Route path="/crear-convocatoria" element={<FormularioConvocatoria />} />
+            <Route path="/inscripcion-convocatoria/:id" element={<InscripcionConvocatoria />} />
+            <Route path="/convocatorias-aprendiz" element={<VistaAprendizConvocatorias />} />
+            
+>>>>>>> 24e3739427130ea6bdbf6f57381845b70cea7c9f
           </Routes>
         </div>
       </div>

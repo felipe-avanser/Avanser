@@ -49,7 +49,7 @@ const DashboardFinal = () => {
 
   return (
     <div className="p-6">
-      <h2 className="text-2xl font-bold mb-6">Dashboard General</h2>
+      <h2 className="text-2xl font-bold mb-6">Panel final</h2>
 
       {/* Estadísticas */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
